@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #071b1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main, .card-output {
+    max-width: 420px;
+    width: 90%;
+    background: #0d2a2f;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 0 15px #00f5c9;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  form h2 {
+    text-align: center;
+  }
+  
+  .input {
+    position: relative;
+    margin: 15px 0;
+  }
+  
+  .input input[type="text"],
+  .input input[type="email"],
+  .input input[type="password"] {
+    width: 90%;
+    padding: 10px 35px 10px 10px;
+    border: none;
+    border-radius: 20px;
+    background: #071b1e;
+    color: #fff;
+  }
+  
+  .input input[type="file"] {
+    display: none;
+  }
+  
+  .input.file-upload label {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: #00f5c9;
+    color: #000;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .input i {
+    position: absolute;
+    right: 10px;
+    top:70%;
+    transform: translateY(-50%);
+    color: #00f5c9;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 12px;
+    background: #00f5c9;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .link a {
+    color: #00f5c9;
+    text-decoration: none;
+  }
+  
+  .card-output img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
